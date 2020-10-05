@@ -4,6 +4,7 @@ body{
   margin-left: 25px
 }
 header{
+  float: left;
   margin-right: 92%;
   color: #FFFFFF;
   background: #7d9aa9;
