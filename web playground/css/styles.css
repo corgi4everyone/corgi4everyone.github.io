@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemonada&display=swap');
+
+body{
+  margin: 1%;
+  font-family:"Comfortaa",cursive,Arial;
+  font-size: 150%;
+}
+header{
+}
+.menubar{
+}
+.menubar ul{
+  text-align: center;
+  margin-top: 25px;
+
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.menubar ul li{
+  display: inline-block;
+  margin: 5px;
+}
+
+.menubar ul li a{
+  display: inline-block;
+  text-align: center;
+  width: 170px;
+  height: auto;
+
+  text-decoration: none;
+  color: #000000;
+  padding: 5px 20px;
+  border: 1px solid #B2EBF2;
+  transition: 0.6s ease-in;
+}
+
+.menubar ul li a:hover{
+  background-color: #B2EBF2;
+  transform: scale(1.1);
+}
+/* .logo img{
+  position: relative;
+  left: 0;
+  width: 150px;
+  height: auto;
+} */
+.menubar{
+  max-width: 1200px;
+  margin: auto;
+}
+.wrapper{
+  margin-top: 10%;
+}
+
+/* font-family: 'Lemonada', cursive; */
+
+.wrapper h1{
+  font-family: 'Sansita Swashed',Arial,cursive;
+  text-align: center;
+  font-size: 70px;
+  margin-bottom: 80px;
+}
+.team{
+  text-align: center;
+  display: flex;
+  width: auto;
+  justify-content: center;
+}
+
+.team .team_member{
+  background: #F9FBE7;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #4e342e;
+  position: relative;
+}
+.team .team_member .description{
+  line-height: 25px;
+  font-family: 'Lemonada',Arial;
+}
+.team .team_member h3{
+  color:#81c644;
+  font-size: 30px;
+  margin-top: 80px;
+}
+.team .team_member .role{
+  font-size: 20px;
+  color: #ccc;
+  text-transform: uppercase;
+  margin: 12px 0px;
+}
+.team .team_member .team_img{
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translate(-50%);
+  background: #e0e0e0;
+}
+.team .team_member .team_img img{
+  width: 120px;
+  height: 120px;
+  padding: 10px;
+}
+
+.current{
+  background-color: #B2EBF2;
+}
