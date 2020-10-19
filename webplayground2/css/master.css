@@ -98,7 +98,6 @@ html{
   align-items: center;
   width: 100%;
   height: 100vh;
-  height: auto;
   /* background: -webkit-linear-gradient(180deg,#bdc3c7,#2c3e50 );
   background: -o-linear-gradient(180deg,#bdc3c7,#2c3e50);
   background: -moz-linear-gradient(180deg,#bdc3c7,#2c3e50); */
@@ -126,7 +125,7 @@ html{
 .about_area{
   margin-top: 10%;
   width: 100%;
-  height: 100vh;
+  height: 90vh;
 }
 .about_area h1{
   font-family:"Roboto Mono",Arial ;
