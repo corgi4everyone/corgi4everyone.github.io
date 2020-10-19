@@ -49,6 +49,10 @@ html{
   background-color: #ffffff;
   transform: scale(1.2);
 }
+.nav-contents ul li a:focus{
+  background-color: #ffffff;
+  transform: scale(1.2);
+}
 .logo{
   flex: 1 1 auto;
   margin-left: 15%;
@@ -121,6 +125,13 @@ html{
   transform: scale(1.2);
 
 }
+.products_area .container:focus{
+  background: #ffffff;
+  width: 40%;
+  transform: scale(1.2);
+
+}
+
 
 .products_area .container h3{
   text-align: center;
@@ -159,9 +170,13 @@ html{
   font-size: 60px;
   letter-spacing: 2px;
   font-variant: small-caps;
+  text-transform:uppercase;
   font-weight: bold;
 }
 .contact_area a:hover img{
+  transform: translateY(-15px);
+}
+.contact_area a:focus img{
   transform: translateY(-15px);
 }
 
@@ -201,6 +216,9 @@ html{
   transition: 0.6s ease-out;
 }
 .team-member:hover{
+  transform: translateY(-15px);
+}
+.team-member:focus{
   transform: translateY(-15px);
 }
 .team .team-member .description{
