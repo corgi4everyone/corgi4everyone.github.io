@@ -41,7 +41,7 @@ html{
   padding: 10px;
   text-decoration: none;
   text-transform: uppercase;
-  border: solid 1px #bdc3c7;
+  border: outset 1px #bdc3c7;
   border-radius: 8px;
   transition: 0.7s ease-in;
 }
@@ -52,6 +52,9 @@ html{
 .nav-contents ul li a:focus{
   background-color: #ffffff;
   transform: scale(1.2);
+}
+.nav-contents ul li a:active{
+  border: inset 1px #bdc3c7;
 }
 .logo{
   flex: 1 1 auto;
