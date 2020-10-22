@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45" height="57" viewBox="0 0 45 57">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-4 {
+        fill: #fff;
+        stroke: #707070;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="45" height="57"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect class="cls-1" width="45" height="58"/>
+    </clipPath>
+  </defs>
+  <g id="Repeat_Grid_2" data-name="Repeat Grid 2" class="cls-2">
+    <g transform="translate(-295 -6)">
+      <g id="Component_1_1" data-name="Component 1 – 1" transform="translate(295 6)">
+        <g id="Repeat_Grid_1" data-name="Repeat Grid 1" class="cls-3">
+          <g transform="translate(-313 -17)">
+            <g id="Rectangle_6" data-name="Rectangle 6" class="cls-4" transform="translate(313 15)">
+              <rect class="cls-5" width="45" height="11"/>
+              <rect class="cls-1" x="0.5" y="0.5" width="44" height="10"/>
+            </g>
+          </g>
+          <g transform="translate(-313 8)">
+            <g id="Rectangle_6-2" data-name="Rectangle 6" class="cls-4" transform="translate(313 15)">
+              <rect class="cls-5" width="45" height="11"/>
+              <rect class="cls-1" x="0.5" y="0.5" width="44" height="10"/>
+            </g>
+          </g>
+          <g transform="translate(-313 33)">
+            <g id="Rectangle_6-3" data-name="Rectangle 6" class="cls-4" transform="translate(313 15)">
+              <rect class="cls-5" width="45" height="11"/>
+              <rect class="cls-1" x="0.5" y="0.5" width="44" height="10"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
