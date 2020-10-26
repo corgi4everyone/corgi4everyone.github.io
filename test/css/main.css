@@ -55,6 +55,10 @@ ul li a{
     background-color: rgba(255, 255, 255,0.35);
     color: #000000;
 }
+ul li a:hover{
+    transform: scale(1.1);
+    background-color: #3190C1;
+}
 main{
     background: #ffffff;
     padding: 1em 1.4em;
@@ -120,7 +124,7 @@ p{
         width: 100% !important;
     }
     ul li a:hover{
-        background-color: #ffffff;
+        background-color: #3190C1;
     }
     nav{
         background: none;
