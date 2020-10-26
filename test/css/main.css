@@ -5,9 +5,9 @@ body,html{
     font-family: "Montserrat","Grandstander","Roboto Slab",Arial, Helvetica, sans-serif;
 }
 body{
-    background: -moz-linear-gradient(45deg,  #0498fb 0%, #e10ea2 45%, #f6006b 100%);
-    background: -o-linear-gradient(45deg,  #0498fb 0%, #e10ea2 45%, #f6006b 100%); 
-    background: -webkit-linear-gradient(45deg,  #0498fb 0%, #e10ea2 45%, #f6006b 100%); 
+    background: -moz-linear-gradient(45deg,  #0498fb 0%, #e66cb2 45%, #e56cb2 100%);
+    background: -o-linear-gradient(45deg,  #0498fb 0%, #e66cb2 45%, #e56cb2 100%);
+    background: -webkit-linear-gradient(45deg,  #0498fb 0%, #e66cb2 45%, #e56cb2 100%);
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
@@ -95,7 +95,7 @@ p{
     }
     main{
         padding: 4em;
-        background: #ffffff url(../media/bg.svg) no-repeat bottom right;
+        background: #ffffff url(../media/bg.png) no-repeat bottom right;
         background-size: 80%;
         
     }
