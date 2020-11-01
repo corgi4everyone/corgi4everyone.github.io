@@ -21,11 +21,12 @@ section{
   position: fixed;
   width: 100%;
   padding: 30px 0;
-  margin left: 3%;
+  /* margin left: 3%; */
   margin-right: 3%;
   background:#ffffff;
   font-family: "Ubuntu",sans-serif,Arial;
   transition: all 0.3s ease;
+  z-index: 999;
 }
 .navbar.sticky{
   padding: 15px 0;
@@ -143,12 +144,14 @@ section{
 }
 .about{
   font-style: "Poppin",sans-serif,Arial;
+  
 }
 .about .title{
   position: relative;
-  font-size: 40px;
+  font-size: 3em;
   font-weight: 500;
   padding-bottom: 20px;
+  transform: translateY(-30px);
   margin-bottom: 80px;
   text-align: center;
   font-family:"Ubuntu",sans-serif,Arial;
@@ -156,15 +159,64 @@ section{
 .about .title::before{
   content: "";
   position: absolute;
+  bottom: 0px;
+  left: 50%;
   width: 180px;
   height: 3px;
-  background: #111111;
+  background: #2a2a2a;
+  transform: translateX(-50%);
+ 
+}
+.about .title::after{
+  content: "who I am";
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  font-size: 20px;
+  color: #4E342E;
+  padding: 5px;
+  background: #fff;
+  transform: translateX(-50%);
+}
+.about .about-content{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.about .about-content .left{
+  width: 45%;
 }
 .about .about-content .left img{
-  height: 400px;
-  width: 400px;
+  height: 500px;
+  width: 500px;
   object-fit: cover;
+  border-radius: 30px;
+  box-shadow: 0 20px 20px rgba(1,1,1,0.2);
 }
+.about .about-content .right{
+  font-family: "Poppins",Arial, Helvetica, sans-serif;
+  width: 55%;
+}
+.about .about-content .right .text{
+  font-family: "Poppins",Arial, Helvetica, sans-serif;
+  font-size: 2.5em;
+  font-weight: 600;
+  margin-bottom: 10px;
+  line-height: 2em;
+}
+.about .about-content .right a{
+  text-decoration: none;
+  color: #007bff;
+
+}
+.about .about-content .right .text span{
+  color: #ff236e;
+}
+.about .about-content .right p{
+  text-align: justify;
+}
+
 
 /* .profile-container{
   display: inline-block;
@@ -182,7 +234,7 @@ section{
 
 @media (max-width:981px){
   .max-width{
-    padding: 20px 50px;
+    padding: 0 20px;
   }
   .menu-btn{
     display: block;
@@ -193,24 +245,62 @@ section{
   }
   .navbar .menu{
     position: fixed;
-    height: 100vh;
+    height: 50vh;
     width: 100%;
     left: -100%;
     top: 0;
     background: #fff;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 100px;
     transition: all 0.3s ease;
   }
   .navbar .menu.active{
+    background-color: #fff;
     left: 0;
   }
   .navbar .menu li{
     display: block;
+    margin: 2em;
+    padding: 3em;
   }
   .navbar .menu li a{
     display: inline-block;
     margin: 20px 0;
     font-size: 25px;
+    
+  }
+
+  .about .about-content .column{
+    width: 100%;
+  }
+  .about .about-content .left{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 5rem auto;
+    padding: 2rem;
+    
+  }
+  .about .about-content .right{
+    margin: 0 auto;
+    flex: 100%;
+    text-align: justify;
+    
+  }
+  .about .about-content .right .text{
+    text-align: center;
+    font-family: "Poppins",Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    line-height: 2em;
+  }
+  .about .about-content .left img{
+    height: 350px;
+    width: 350px;
+
+  }
+  .about .about-content .left{
+
+
   }
 }
