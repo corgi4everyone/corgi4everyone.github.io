@@ -129,7 +129,7 @@ section{
   text-decoration: none;
   border-radius: 20px;
   border: solid 2px #fff;
-  box-shadow: ;
+  /* box-shadow: ; */
   margin-top: 20px;
   transition: all 0.3s ease;
 }
@@ -231,8 +231,22 @@ section{
 
 
 /*------------------------------- Responsive media -------------------------------*/
-
-@media (max-width:981px){
+@media only screen and (max-width:1390px){
+  .about .about-content .right{
+    text-align: center;
+    width: 100%;
+  }
+  .about .about-content .left{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 80px;
+  }
+  .about .about-content .right .text{
+    font-weight: 500;
+  }
+}
+@media only screen and (max-width:981px){
   .max-width{
     padding: 0 20px;
   }
@@ -298,7 +312,7 @@ section{
   .about .about-content .right .text{
     text-align: center;
     font-family: "Poppins",Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 3.5em;
     font-weight: 500;
     margin-bottom: 30px;
     line-height: 2em;
@@ -308,8 +322,8 @@ section{
     width: 350px;
 
   }
-  .about .about-content .left{
+  /* .about .about-content .left{
 
 
-  }
+  } */
 }
