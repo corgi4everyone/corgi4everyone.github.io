@@ -144,7 +144,7 @@ section{
 }
 .about{
   font-style: "Poppin",sans-serif,Arial;
-  
+  height: 100vh;
 }
 .about .title{
   position: relative;
@@ -178,7 +178,8 @@ section{
   background: #fff;
   transform: translateX(-50%);
 }
-.about .about-content{
+.about .about-content,
+.education .edu-content{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -218,16 +219,95 @@ section{
 }
 
 
-/* .profile-container{
-  display: inline-block;
-  width: 50%;
+/*                      Education section                         */
+.education{
+  background: #c2ecfa;
+  color: #2a2a2a;
+  font-family: "Poppins",Arial, Helvetica, sans-serif;
+  margin-top: 80px 0;
+  height: 100vh;
 }
-.profile{
-  width: 300px;
-  height: 300px;
-} */
+.education .edutitle{
+  position: relative;
+  font-size: 3em;
+  font-weight: 500;
+  padding-bottom: 20px;
+  transform: translateY(-30px);
+  margin-bottom: 80px;
+  text-align: center;
+  font-family:"Ubuntu",sans-serif,Arial;
+}
+.education .edutitle::before{
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  width: 180px;
+  height: 3px;
+  background: #2a2a2a;
+  transform: translateX(-50%);
+ 
+}
+.education .edutitle::after{
+  content: "where I learn";
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  font-size: 20px;
+  color: #2a2a2a;
+  padding: 5px;
+  background: #c2ecfa;
+  transform: translateX(-50%);
+}
+.education .edu-content .card{
+  width:47%;
+  background: rgba(255, 255, 255,0.4);
+  text-align: center;
+  border-radius: 30px;
+  padding: 50px 50px;
+  cursor: pointer;
+}
+.education .edu-content .card i{
+  text-align: center;
+  font-size: 80px;
+  margin-bottom:40px ;
+}
+.education .edu-content .card .text{
+  font-size: 1.2em;
+  font-weight: 400;
+  border-left: 5px solid #007bff;
+  text-align: left;
+  transition: all 0.5s ease;
+  padding-left: 20px;
+}
+.education .edu-content .card .text .place{
+  font-size: 27px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #2a2a2a;
+}
 
 
+.education .edu-content .card .text .time{
+  color: #4498f8;
+  font-size: 24px;
+  font-style:initial;
+  font-weight: 500;
+  margin-bottom:0;
+}
+.education .edu-content .card .text .time i{
+  font-size: 30px;
+  color: #4498f8;
+}
+.education .edu-content .card .text .achieve{
+  color: #C5B358;
+}
+.education .edu-content .card .box{
+  transition: all 0.5s ease;
+}
+.education .edu-content .card .box:hover{
+  transform: scale(1.05);
+}
 
 
 /*------------------------------- Responsive media -------------------------------*/
@@ -245,12 +325,17 @@ section{
   .about .about-content .right .text{
     font-weight: 500;
   }
+  .about,.education{
+    height: auto;
+  }
 }
 @media only screen and (max-width:981px){
   .max-width{
     padding: 0 20px;
   }
-
+  .about,.education{
+    height: auto;
+  }
   .navbar .logo #logo-text{
     font-size: 45px;
     font-weight: 600;
@@ -281,12 +366,12 @@ section{
   }
   .navbar .menu li{
     display: block;
-    margin: 10%;
+    margin: 4% 0;
     
   }
   .navbar .menu li a{
     display: inline-block;
-    margin: 20px 0;
+    margin: 3%;
     padding: 20px;
     font-size: 30px;
     font-weight: 600;
@@ -327,3 +412,4 @@ section{
 
   } */
 }
+
