@@ -30,7 +30,7 @@ section{
 }
 .navbar.sticky{
   padding: 15px 0;
-  background: #FFEBEE;
+  background: #FFDAB9;
 }
 
 .navbar .menu li a{
@@ -87,7 +87,13 @@ section{
 .home{
   display: flex;
   /* background: #ffabc8; */
-  background: #fdb1cbb8;
+  /* background: #fdb1cbb8; */
+
+  /* peach color */
+  /* background: #FFDAB9;      */ 
+  /* background: #fff0dd; */
+  background: 	#ffd096;
+
   height: 100vh;
   min-height: 500px;
   color: #4E342E;
@@ -266,6 +272,7 @@ section{
   border-radius: 30px;
   padding: 50px 50px;
   cursor: pointer;
+
 }
 .education .edu-content .card i{
   text-align: center;
@@ -286,7 +293,9 @@ section{
   margin-bottom: 25px;
   color: #2a2a2a;
 }
-
+.education .edu-content .card .text .place .tobesame{
+  color: #daf4fc;
+}
 
 .education .edu-content .card .text .time{
   color: #4498f8;
@@ -311,6 +320,16 @@ section{
 
 
 /*------------------------------- Responsive media -------------------------------*/
+@media only screen and (max-width:1887px){
+  .education .edu-content .card{
+    /* height:500px; */
+  
+    float: left;
+  }
+  .education .edu-content .card .time{
+    font-size: 10px;
+  }
+}
 @media only screen and (max-width:1390px){
   .about .about-content .right{
     text-align: center;
@@ -357,7 +376,7 @@ section{
     top: 0;
     background: #fff;
     text-align: center;
-    padding-top: 80px;
+    /* padding:; */
     transition: all 0.3s ease;
   }
   .navbar .menu.active{
@@ -406,6 +425,24 @@ section{
     height: 350px;
     width: 350px;
 
+  }
+  .education .edu-content .card{
+    width:(49%);
+    border-radius: 30px;
+    padding:auto;
+    cursor: pointer;
+  
+  }
+  .education .edu-content .card .box{
+    line-height: 30px;
+  }
+  .education .edu-content .card .text .time{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom:0;
+  }
+  .education .edu-content .card .text .achieve{
+    font-size:15px;
   }
   /* .about .about-content .left{
 
