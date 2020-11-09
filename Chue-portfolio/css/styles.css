@@ -430,28 +430,32 @@ section{
     margin-bottom: 30px;
     line-height: 2em;
   }
+  .about .about-content .right .text p{
+    font-size: 2.5em;
+    font-weight: 500;
+  }
   .about .about-content .left img{
     height: 350px;
     width: 350px;
 
   }
   .education .edu-content .card{
-    width:(49%);
+    flex: 100%;
     border-radius: 30px;
     padding:auto;
     cursor: pointer;
-  
+    margin-bottom: 40px;
   }
   .education .edu-content .card .box{
-    line-height: 30px;
+    line-height: 3em;
   }
   .education .edu-content .card .text .time{
-    font-size: 1em;
+    font-size: 2em;
     font-weight: 400;
     margin-bottom:0;
   }
   .education .edu-content .card .text .achieve{
-    font-size:15px;
+    font-size:1.2em;
   }
   /* .about .about-content .left{
 
