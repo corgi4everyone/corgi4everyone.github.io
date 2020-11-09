@@ -430,10 +430,6 @@ section{
     margin-bottom: 30px;
     line-height: 2em;
   }
-  .about .about-content .right .text p{
-    font-size: 2.5em;
-    font-weight: 500;
-  }
   .about .about-content .left img{
     height: 350px;
     width: 350px;
@@ -449,8 +445,12 @@ section{
   .education .edu-content .card .box{
     line-height: 3em;
   }
-  .education .edu-content .card .text .time{
+  .education .edu-content .card .text .place{
     font-size: 2em;
+    font-weight: 600;
+  }
+  .education .edu-content .card .text .time{
+    font-size: 1.5em;
     font-weight: 400;
     margin-bottom:0;
   }
