@@ -403,10 +403,11 @@ section{
   color:#4498f8;
 }
 .skill-label{
+  font-family:"Poppins","Ubuntu",sans-serif,Arial;
   position: relative;
   color: #32064a;
-  font-weight: 600;
-  font-size: 20px;
+  font-weight: 700;
+  font-size: 1em;
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-top:20px;
@@ -459,7 +460,7 @@ svg circle:nth-child(2){
     height: auto;
   }
   .skills .title{
-    margin-bottom: 10px;
+    margin-bottom:50px;
   }
   .skills-content{
     display: flex;
@@ -470,6 +471,7 @@ svg circle:nth-child(2){
     margin: 30px 0;
   }
   .container{
+    margin-top: 0;
     position: relative;
     display: inline-block;
   }
