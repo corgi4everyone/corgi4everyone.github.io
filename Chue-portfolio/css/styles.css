@@ -148,7 +148,7 @@ section{
 
 /* ---------------about section styling--------------- */
 #about{
-  background: none;
+  background: #fcc1d5;
 }
 section{
   padding:100px 0 ;
@@ -206,7 +206,7 @@ section{
   width: 500px;
   object-fit: cover;
   border-radius: 30px;
-  box-shadow: 0 20px 20px rgba(1,1,1,0.2);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
 }
 .about .about-content .right{
   font-family: "Poppins",Arial, Helvetica, sans-serif;
@@ -370,6 +370,7 @@ section{
   z-index: 2;
 }
 .percent .number{
+  font-family: "Poppins",Arial, Helvetica, sans-serif;
   position: absolute;
   top: 0;
   left: 0;
