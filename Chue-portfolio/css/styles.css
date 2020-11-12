@@ -457,6 +457,20 @@ svg circle:nth-child(2){
 
 /*------------------------------- Responsive media -------------------------------*/
 @media only screen and (max-width:1469px){
+  .skills .container .up{
+    display: inline-flex;
+    flex-direction: row;
+    flex: 30%;
+    margin-right: 0 20px;
+    height: 300px;
+  }
+  .skills .container .bottom{
+    display: inline-flex;
+    flex-direction: row;
+    flex: 50%;
+    margin-right: 0 20px;
+    height: 300px;
+  }
   .skills{
     height: auto;
   }
