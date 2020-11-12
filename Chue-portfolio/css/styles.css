@@ -456,6 +456,11 @@ svg circle:nth-child(2){
 }
 
 /*------------------------------- Responsive media -------------------------------*/
+@media only screen and (max-height:830px){
+  .home,.about,.education,.skills{
+    height: auto;
+  }
+}
 @media only screen and (max-width:1469px){
   .skills .container .up{
     display: inline-flex;
