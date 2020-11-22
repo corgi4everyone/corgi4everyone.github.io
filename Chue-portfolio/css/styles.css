@@ -64,6 +64,30 @@ section{
   cursor: pointer;
   display: none;
 }
+.scroll-up-btn{
+  position: fixed;
+  height: 45px;
+  width: 42px;
+  background: crimson;
+  right: 30px;
+  bottom: 30px;
+  text-align: center;
+  line-height: 45px;
+  color: #fff;
+  z-index: 9999;
+  font-size: 30px;
+  border-radius: 6px;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+.scroll-up-btn.show{
+  bottom: 30px;
+  opacity: 1;
+  pointer-events: auto;
+}
+
 
 .navbar .logo #logo-text{
   font-size: 35px;
@@ -172,6 +196,7 @@ section{
   position: relative;
   font-size: 3em;
   font-weight: 500;
+  text-transform: uppercase;
   padding-bottom: 20px;
   transform: translateY(-30px);
   margin-bottom: 80px;
@@ -260,6 +285,7 @@ section{
 }
 .education .title::before{
   background: #005493;
+  width: 240px;
 }
 .education .title::after{
   content: "where I learn";
@@ -331,7 +357,7 @@ section{
 }
 .skills .title::before{
   content: "";
-  width: 200px;
+  width: 250px;
   background: #4E342E;
 
 }
@@ -536,45 +562,62 @@ svg circle:nth-child(2){
 /* ------------------Contact section----------------------- */
 .contact{
   font-family: "Poppins",Arial, Helvetica, sans-serif;
+  padding: 100px;
 }
 .contact .title::after{
   content: "get in touch";
   background: #ffffff;
 }
-.contact .contact-content .column{
-  width: calc(50% - 30px);
-}
-.contact .contact-content .text{
-  font-size: 30px;
-  font-weight: 500;
-  margin-bottom: 10px;
-}
-.contact .contact-content .column .left p{
-  text-align: justify;
-}
-.contact .contact-content .column .left .icons{
-  margin: 10px 0;
-}
-.contact .contact-content .row{
-  display: flex;
-  height: 65px;
+.contact-content{
+
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
+  text-align: center;
+}
+.contact .address{
+  width: calc(30% - 30px);
+}
+.contact .address .text{
+  font-size: 25px;
+  font-weight: 500;
+}
+.contact .address .head{
+  margin-bottom: 20px;
+  color: #636363;
 }
 
-.contact .contact-content .row .info{
-  margin-left: 30px;
+.contact .social-media{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: calc(30% - 30px);
 }
-.contact .contact-content .row i{
+.contact .social-media li{
+  display: inline-block;
+  margin: 30px 20px;
+  align-items: center;
+  justify-content: center;
+}
+.contact .social-media li i{
+  font-size: 50px;
+}
+.contact .say-hello{
+  width: calc(30% - 30px);
+}
+.contact .say-hello h4{
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 600;
+  color: #636363;
+}
+.contact .say-hello p{
   font-size: 25px;
-  color: #D81B60;
 }
-.contact .contact-content .info .head{
-  font-weight: 500;
-  font-size: 25px;
-}
-.contact .contact-content .info .sub-title{
-  color: #333;
-}
+
 /*------------------------------- Responsive media -------------------------------*/
 @media only screen and (max-height:830px){
   .home,.about,.education,.skills{
@@ -650,6 +693,21 @@ svg circle:nth-child(2){
     padding:auto;
     cursor: pointer;
     margin-bottom: 40px;
+  }
+  .contact-content{
+    flex-direction: column;
+  }
+  .contact .address{
+    margin:0 0 80px 0;
+    width: 100%;
+  }
+  .contact .social-media{
+    margin:0 0 80px 0;
+    width: 100%;
+  }
+  .contact .say-hello{
+    width: 100%;
+    margin:0 0 80px 0;
   }
 }
 @media only screen and (max-width:981px){
