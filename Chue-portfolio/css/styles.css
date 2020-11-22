@@ -201,7 +201,8 @@ section{
   transform: translateX(-50%);
 }
 .about .about-content,
-.education .edu-content{
+.education .edu-content,
+.contact .contact-content{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -464,6 +465,116 @@ svg circle:nth-child(2){
   stroke:#007bff;
 }
 
+/* -----------------------Team or project section------------------------ */
+
+.team{
+  font-family: "Poppins",Arial, Helvetica, sans-serif;
+}
+.team .title::after{
+  content: "who with me";
+  background-color: #fff;
+}
+.team .carousel .card{
+  background:#636363;
+  border-radius: 15px;
+  padding: 25px 35px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.team .carousel .card .box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+.team .carousel .card:hover{
+  background: chocolate;
+}
+.team .carousel .card:hover .box{
+  transform: scale(1.05);
+}
+.team .carousel .card .text{
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+.team .carousel .card img{
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid  crimson;
+}
+.team .carousel .card:hover img{
+  border-color: cornsilk;
+}
+
+.owl-dots{
+  text-align: center;
+  margin-top: 20px;
+}
+.owl-dot{
+  height: 13px;
+  width: 13px;
+  margin: 0 5px;;
+  outline: none !important;
+  border-radius: 50%;
+  border: 2px solid crimson !important;
+  transition: all 0.3s ease;
+}
+.owl-dot.active{
+  width: 35px;
+  border-radius: 14px;
+}
+.owl-dot.active,
+.owl-dot:hover{
+  background: crimson !important;
+}
+
+
+/* ------------------Contact section----------------------- */
+.contact{
+  font-family: "Poppins",Arial, Helvetica, sans-serif;
+}
+.contact .title::after{
+  content: "get in touch";
+  background: #ffffff;
+}
+.contact .contact-content .column{
+  width: calc(50% - 30px);
+}
+.contact .contact-content .text{
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.contact .contact-content .column .left p{
+  text-align: justify;
+}
+.contact .contact-content .column .left .icons{
+  margin: 10px 0;
+}
+.contact .contact-content .row{
+  display: flex;
+  height: 65px;
+  align-items: center;
+}
+
+.contact .contact-content .row .info{
+  margin-left: 30px;
+}
+.contact .contact-content .row i{
+  font-size: 25px;
+  color: #D81B60;
+}
+.contact .contact-content .info .head{
+  font-weight: 500;
+  font-size: 25px;
+}
+.contact .contact-content .info .sub-title{
+  color: #333;
+}
 /*------------------------------- Responsive media -------------------------------*/
 @media only screen and (max-height:830px){
   .home,.about,.education,.skills{
