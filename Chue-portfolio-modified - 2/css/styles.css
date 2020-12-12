@@ -886,4 +886,14 @@ svg circle:nth-child(2){
   .about,.education,.skills,.team,.contact{
     height: auto;
   }
+  .team .carousel .card{
+    min-height:400px;
+  }
+  .team .carousel .card .text{
+    font-size: 2rem;
+  }
+  .team .carousel .card p{
+    margin-top: 1rem;
+    font-size: 1.4rem;
+  }
 }
