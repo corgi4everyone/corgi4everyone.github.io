@@ -76,7 +76,7 @@ section{
   position: fixed;
   height: 45px;
   width: 42px;
-  background: crimson;
+  background:#f9a255 ;
   right: 30px;
   bottom: 30px;
   text-align: center;
@@ -502,19 +502,19 @@ svg circle:nth-child(2){
   height: 100vh;
 }
 .team .title{
-  color: #636363;
+  color: #ffb07c;
 }
 .team .title::before{
-  background: #636363;
-  color: #636363;
+  background: #ffb07c;
+  color: #ffb07c;
 }
 .team .title::after{
   content: "who with me";
-  color: #636363;
+  color: #ffb07c;
   background: #f3f3f3;
 }
 .team .carousel .card{
-  background:#636363;
+  background:#FFE5B4;
   border-radius: 15px;
   padding: 25px 35px;
   text-align: center;
@@ -528,7 +528,7 @@ svg circle:nth-child(2){
   transition: all 0.3s ease;
 }
 .team .carousel .card:hover{
-  background: chocolate;
+  background: #FFDAB9;
 }
 .team .carousel .card:hover .box{
   transform: scale(1.05);
@@ -543,10 +543,10 @@ svg circle:nth-child(2){
   width: 150px;
   object-fit: cover;
   border-radius: 50%;
-  border: 5px solid  crimson;
+  border: 5px solid  #ddaf94;
 }
 .team .carousel .card:hover img{
-  border-color: cornsilk;
+  border-color: #f1f1f1;
 }
 
 .owl-dots{
@@ -559,7 +559,7 @@ svg circle:nth-child(2){
   margin: 0 5px;;
   outline: none !important;
   border-radius: 50%;
-  border: 2px solid crimson !important;
+  border: 2px solid #ddaf94 !important;
   transition: all 0.3s ease;
 }
 .owl-dot.active{
@@ -568,7 +568,7 @@ svg circle:nth-child(2){
 }
 .owl-dot.active,
 .owl-dot:hover{
-  background: crimson !important;
+  background: #ddaf94 !important;
 }
 
 
