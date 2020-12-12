@@ -191,7 +191,7 @@ section{
 }
 /* .about  */
 .title{
-  color: #2a2a2a;
+  color: #ff236e;
   position: relative;
   font-size: 3em;
   font-weight: 500;
@@ -209,7 +209,7 @@ section{
   left: 50%;
   width: 180px;
   height: 3px;
-  background: #2a2a2a;
+  background: #ff236e;
   transform: translateX(-50%);
  
 }
@@ -219,7 +219,7 @@ section{
   bottom: 55px;
   left: 50%;
   font-size: 20px;
-  color: #2a2a2a;
+  color: #ff236e;
   padding: 5px;
   background: #f3f3f3;
   transform: translateX(-50%);
@@ -240,6 +240,7 @@ section{
   height: 350px;
   width: 350px;
   object-fit: cover;
+  border-radius: 40px;
   /* border-radius: 30px; */
   /* box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4); */
 }
@@ -283,12 +284,12 @@ section{
   color: #4498f8;
 }
 .education .title::before{
-  background: #005493;
+  background:#4498f8;
   width: 240px;
 }
 .education .title::after{
   content: "where I learn";
-  color: #005493;
+  color: #4498f8;
   background: #f3f3f3;
 }
 .education .edu-content .card{
@@ -353,12 +354,12 @@ section{
 
 }
 .skills .title{
-  color: #2a2a2a;
+  color: #32064a;
 }
 .skills .title::before{
   content: "";
   width: 250px;
-  background: #4E342E;
+  background: #32064a;
 
 }
 /* .skills-content{
@@ -368,7 +369,7 @@ section{
 } */
 .skills .title::after{
   content: "what i expertize";
-  color: #2a2a2a;
+  color: #32064a;
   background: #f3f3f3;
 }
 .container{
@@ -500,9 +501,17 @@ svg circle:nth-child(2){
   font-family: "Poppins",Arial, Helvetica, sans-serif;
   height: 100vh;
 }
+.team .title{
+  color: #636363;
+}
+.team .title::before{
+  background: #636363;
+  color: #636363;
+}
 .team .title::after{
   content: "who with me";
-  background-color: #f3f3f3;
+  color: #636363;
+  background: #f3f3f3;
 }
 .team .carousel .card{
   background:#636363;
@@ -572,8 +581,16 @@ svg circle:nth-child(2){
   padding: 100px;
   background: #c1c1c1;
 }
+.contact .title{
+  color: #2a2a2a;
+}
+.contact .title::before{
+  color: #2a2a2a;
+  background: #2a2a2a;
+}
 .contact .title::after{
   content: "get in touch";
+  color: #2a2a2a;
   background: #c1c1c1;
 }
 .contact-content{
